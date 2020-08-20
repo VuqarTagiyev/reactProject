@@ -4,10 +4,11 @@ import PropTypes from 'prop-types'
 import './PageLayout.scss'
 import Header from '../../components/Header';
 
+
 export const PageLayout = ({ children }) => (
-  <div className = "container">
+  <div className = "">
     <Header/>
-      Test
+      {children}
   </div>
 )
 PageLayout.propTypes = {
